@@ -1,0 +1,7 @@
+n=int(input("Enter elements: "))
+l=[]
+for i in range(n):
+    l.append(int(input("enter the element")))
+a=int(input("enter value of a: "))
+l=sorted(l)
+print(l[-a])
