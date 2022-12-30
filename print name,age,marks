@@ -1,0 +1,11 @@
+def student(a,b,l):
+    print("name:",a)
+    print("age:",b)
+    for i in range(5):
+        print("mark",i+1,":",l[i])
+n=input("enter the name:")
+age=int(input("enter the age:"))
+l=[]
+for i in range(5):
+    l.append(int(input("enter the marks:")))
+student(n,age,l)
