@@ -1,0 +1,18 @@
+a=int(input("Enter elements: "))
+l=[]
+for i in range(a):
+    l.append(int(input("enter the element")))
+l_eve=[]
+l_odd=[]
+eve=0
+odd=0
+for i in l:
+    if(i%2==0):
+        l_eve.append(i)
+        eve+=1
+    else:
+        l_odd.append(i)
+        odd+=1
+print("odd=",l_odd,"even=",l_eve)
+print("count of even=",eve,"count of odd=",odd)    
+
