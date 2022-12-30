@@ -1,0 +1,12 @@
+def MSB(n):
+    if (n == 0):
+        return 0
+    k= 0
+    n=int(n/2)
+    while (n > 0):
+        n =int(n / 2)
+        k=k+1
+    return (1 << k)
+n=int(input("enter a number to find MSB"))
+result=MSB(n)
+print("the MSB of a number ",result)
