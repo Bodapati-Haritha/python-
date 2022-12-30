@@ -1,0 +1,10 @@
+def prdct(l):
+    a=1
+    for i in l:
+        a*=i
+    print(a)
+n=int(input("enter number of element:"))
+l=[]
+for i in range(n):
+    l.append(int(input("enter the element:")))
+prdct(l)
