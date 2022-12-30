@@ -1,0 +1,8 @@
+n=input("enter the string:")
+if(n==n.upper()):
+    print(n.lower())
+elif(n==n.lower()):
+    print(n.upper())
+else:
+    print(n.swapcase())
+
