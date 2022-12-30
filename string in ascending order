@@ -1,0 +1,7 @@
+a=input("enter the string")
+l=list(a)
+print("ascending order=",sorted(l))
+b=[]
+for i in l:
+    b.append(l.count(i))
+print(b.index(2))
