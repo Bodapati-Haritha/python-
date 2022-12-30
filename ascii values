@@ -1,0 +1,2 @@
+a=input("enter a alphabet: ")
+print("the ascii value of a is:" ,ord(a))
