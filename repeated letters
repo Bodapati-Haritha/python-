@@ -1,0 +1,13 @@
+a=input("enter the string")
+b=0
+l=list(a)
+print("repeated character",end=" ")
+c=[]
+for i in l:
+    if(i in c):
+        print(i,end=" ")
+        b+=1
+    else:
+        c.append(i)
+print()
+print("number of characters repeated=",b)
