@@ -1,0 +1,8 @@
+a=input("Enter a string:")
+b=a.split()
+count=0
+for i in b:
+    if(i[0]=='t' or i[0]=='T'):
+        count+=1
+print("Number of words ending with t is=",count)
+
