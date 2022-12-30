@@ -1,0 +1,13 @@
+vowels=0
+consonants=0
+s=0
+str=input("enter a string: ")
+for i in str:
+    if(i in "aeiouAEIOU"):
+        vowels=vowels+1
+    elif(i.isspace()):
+        s=s+1
+    else:
+        consonants=consonants+1
+print("number of vowels: ",vowels)
+print("number of consonants: ",consonants)
