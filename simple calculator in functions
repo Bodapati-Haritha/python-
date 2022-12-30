@@ -1,0 +1,23 @@
+a=float(input("enter the value of a:"))
+b=float(input("enter the value of b:"))
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+print("1.add\n 2.sub\n 3.mul\n 4.div\n")
+c=int(input("enter the choice:"))
+if(c==1):
+    print("addition of a and b=",add(a,b))
+elif(c==2):
+    print("subtraction of a and b=",sub(a,b))
+elif(c==3):
+    print("multiplication of a and b=",mul(a,b))
+elif(c==4):
+    print("division of a and b=",div(a,b))
+else:
+    print("invalid")
+
