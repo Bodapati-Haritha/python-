@@ -1,0 +1,11 @@
+p=int(input("Principal Amount:"))
+t=int(input("Number of years:"))
+c=input("Is customer a senior citizen?")
+if(c=='F' or c=='f'):
+    r=0.15
+elif(c=='M' or c=='m'):
+    r=0.12
+else:
+    r=0.10
+si=p*t*r
+print("Simple Intrest:",si)
